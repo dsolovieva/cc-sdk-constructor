@@ -1,0 +1,14 @@
+.Editor {
+  overflow-y: auto;
+}
+.Editor .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+.Editor .form-group {
+  margin-bottom: .5rem;
+}
+
+.Editor .col-form-label-sm {
+  margin-bottom: 0;
+}

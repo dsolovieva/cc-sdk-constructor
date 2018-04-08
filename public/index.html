@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+    <style>
+      /* #viewer .carcode-widget_main-hub-button__wrapper {
+        position: absolute;
+      } */
+      :root {
+        --formBackgroundColor: #e1e4e5;
+        --formLightBackgroundColor: #edf0f2;
+        --formLightColor: #404040;
+        --formTextColor: #999999;
+        --separatorColor: #D4CED8;
+        --backgroundButtonColor: #2980B9;
+        --buttonColor: #ffffff;
+        --fontSize: 16px;
+        --fontFamily: 'Roboto', 'Open Sans', 'Arial', 'Helvetica', 'sans-serif';
+        --formButtonBackgroundColor: #007EE5;
+        --dotColor: #FF9A9A;
+        --formBoxShadow: rgba(85,85,85,0.5);
+        --cannedMessagesColor: #4A4A4A;
+        --cannedMessagesBorder: #d8d8d8;
+        --chatReplyMessageBackground: #80ccff;
+        --chatMessageBackground: rgba(156,39,176,.3);
+        --scrollBarColor: #c1c1c1;
+        --scrollBarBackground: #e9e9e9;
+        --inventoryButtonBackground: red;
+        --inventoryPrimaryLightColor: #999;
+        --inventoryPrimaryDarkColor: #555;
+        --inventoryButtonBorderColor: red;
+      }
+    </style>
+    <script type='text/javascript'>
+      window.__carcode = {
+          appendWidgetTo: 'viewer',
+          skipMobileApp: true,
+          disableGoogleAnalytics: true,
+          disableEdwAnalytics: true,
+          disableGtmAnalytics: true,
+          themeConfiguration: {
+            formBackgroundColor: 'var(--formBackgroundColor)', /* applied to widget menu, chat, sms form (with dots, use dotColor) */
+            formLightBackgroundColor: 'var(--formLightBackgroundColor)', /* applied to items in widget menu, input in chat, header and inputs in sms form */
+            formLightColor: 'var(--formLightColor)', /* applied as font color to welcome message and secondary buttons in callout popup, items in widget menu, messages and terms link in chat, title, menu items and inputs in sms menu */
+            formTextColor: 'var(--formTextColor)', /* applied as font color to text in sms form */
+            separatorColor: 'var(--separatorColor)', /* applied to horizontal separators in widget and sms menu */
+            backgroundButtonColor: 'var(--backgroundButtonColor)', /* used as primary color of widget, will be overridden for some elements by more specific settings */
+            buttonColor: 'var(--buttonColor)', /* applied as font color to widget button and header, submit button in sms form */
+            fontSize: 'var(--fontSize)', /* applied to widget button */
+            fontFamily: 'var(--fontFamily)', /* applied to all text elements except widget menu items, load history button in chat view */
+            formButtonBackgroundColor: 'var(--formButtonBackgroundColor)', /* applied to submit button in sms form */
+            dotColor: 'var(--dotColor)', /* applied to background dots in sms-form */
+            formBoxShadow: 'var(--formBoxShadow)', /* applied to widget outline shadow */
+            cannedMessagesColor: 'var(--cannedMessagesColor)', /* applied to 'bubble' canned messages NOT APPLIED */
+            cannedMessagesBorder: 'var(--cannedMessagesBorder)', /*  */
+            chatReplyMessageBackground: 'var(--chatReplyMessageBackground)', /* applied to user messages in chat view */
+            chatMessageBackground: 'var(--chatMessageBackground)', /* applied to dealer messages in chat view */
+            scrollBarColor: 'var(--scrollBarColor)', /* applied to scroll bar in chat view */
+            scrollBarBackground: 'var(--scrollBarBackground)', /* applied to scroll background in chat view */
+            inventoryButtonBackground: 'var(--inventoryButtonBackground)', /* NOT APPLIED */
+            inventoryPrimaryLightColor: 'var(--inventoryPrimaryLightColor)', /* applied to light text elements in inventory search view */
+            inventoryPrimaryDarkColor: 'var(--inventoryPrimaryDarkColor)', /* applied to dark text elements in inventory search view */
+            inventoryButtonBorderColor: 'var(--inventoryButtonBorderColor)', /* NOT APPLIED */
+         }
+      };
+    </script>
+    <script src="https://dev-dsg11-www.carcodesms.com/widgets/s/1hnfjd.js" defer></script>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
